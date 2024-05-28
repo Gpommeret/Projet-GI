@@ -1,0 +1,159 @@
+p{
+    color:black;
+    font: size 14px;
+    font-family:arial; 
+    font-weight: normal; 
+    margin-top:10px; 
+    margin-bottom:10px;
+}
+h3{
+    color:rgb(173, 30, 30);
+    font-size: 38px;
+    font-family:arial; 
+    font-weight: bold;
+    text-align: center; 
+    margin-top:10px; 
+    margin-bottom:10px;
+}
+.p1{
+    color:white;
+    font: size 32px;
+    font-family:arial; 
+    font-weight: normal; 
+    margin-top:10px; 
+    margin-bottom:10px;  
+}
+.h2{ 
+    color: black; 
+    font-size: 26px; 
+    font-family:arial;
+    font-weight: bold;
+    position: center;
+    background-color: green;
+}
+
+li{
+    color : white
+}
+
+h1{
+    color: white; 
+    font-size: 100px; 
+    font-family:arial; 
+    margin-top:50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+hr{
+    color : white;
+}
+
+div{
+    background-color:lightblue; 
+    background-position: center;  
+    width: 250px;
+    height : auto; 
+    font-size:18px; 
+    font-family:arial;
+    padding:20px;/*padding =espacement interne*/
+    margin:10px; /*margin = espace autour des blocs*/
+    display:block;
+    justify-content: space-between;
+    width:90%;
+    margin: 5px auto
+}
+img{
+    width :200px ;
+    height: 200px;
+}
+.containercontent{
+    display:block;
+    justify-content: space-between;
+    width:70%;
+    margin: 5px auto;
+}
+.containerleftright{
+display:flex;
+justify-content: space-between;
+width:90%;
+margin: 5px auto;
+}
+.left,.center, .right{
+width: 60%;
+padding: 5px;
+margin: auto;
+display: flex;
+flex-direction: column;
+padding: 20px;
+margin-block: auto;
+background-color:whitesmoke; 
+background-position: center 
+}
+
+.containerEducation{
+    width: 70%;
+    margin: auto;
+}
+.containerExpertise{
+    width: 70%;
+    margin: auto;
+}
+.containerLanguage{
+    width: 70%;
+    margin: auto;
+}
+
+.button-container{
+    margin: 10px 0;
+    width:70%;
+    margin: 5px auto;
+}
+
+.button-style{
+    background-color: green;
+    color: white;
+    border: 5px solid black;
+    padding: 15px 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px green;
+    font-family: arial;
+}
+
+.bg-img {
+    /*ajouter à l'image*/
+        background-image: url("Language.jpg"); 
+        min-height: 380px;
+
+    /*Centrer et redimensionner l'image*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+.bg1-img {
+    /*ajouter à l'image*/
+        background-image: url("Expertise.jpg"); 
+        min-height: 380px;
+
+    /*Centrer et redimensionner l'image*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+.bg2-img {
+    /*ajouter à l'image*/
+        background-image: url("Bonjour.jpg"); 
+        min-height: 600px;
+
+    /*Centrer et redimensionner l'image*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
